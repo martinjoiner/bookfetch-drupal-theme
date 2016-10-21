@@ -1,0 +1,10 @@
+name: BookFetch
+type: theme
+description: A custom theme specifically for bookfetch.co.uk.
+core: 8.x
+libraries:
+  - bookfetch/global-styling
+regions:
+  header: Header
+  content: Content  # the content region is required
+  footer: Footer

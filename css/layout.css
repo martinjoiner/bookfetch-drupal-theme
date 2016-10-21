@@ -1,0 +1,23 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+}
+
+header{
+	display: block;
+	width: 100%;
+}
+
+nav li {
+	list-style: none;
+}
+
+#page-wrapper nav a {
+	display: block;
+	padding: 0.5em;
+	float: left;
+}

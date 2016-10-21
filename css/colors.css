@@ -1,0 +1,26 @@
+
+body {
+	color: #101d06;
+}
+
+#block-bookfetch-account-menu {
+	background-color: #a0d8a0;
+}
+
+.block-bookfetch-branding {
+	background-color: #212121;
+}
+
+#block-bookfetch-branding {
+
+}
+
+#block-bookfetch-branding a {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+#page-wrapper nav a {
+	background-color: #c3c3c3;
+}
