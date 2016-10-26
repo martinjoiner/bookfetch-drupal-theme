@@ -1,0 +1,37 @@
+
+h2{
+	font-size: 1.3em;
+}
+
+#page-wrapper,
+input[type=text],
+input[type=search],
+input[type=password],
+input[type=number],
+input[type=tel],
+input[type=email] {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
+
+#block-bookfetch-account-menu {
+	font-size: 0.8em;
+}
+
+#block-bookfetch-branding a {
+	font-size: 2.5em;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+
+
+/* Main nav bar below logo ---------------- */
+
+#block-bookfetch-main-menu a,
+#block-bookfetch-main-menu a:visited {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}

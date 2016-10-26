@@ -6,3 +6,5 @@ global-styling:
     theme:
       css/colors.css: {}
       css/theme.css: {}
+      //fonts.googleapis.com/css?family=Lora:400,400i,700: { type: external }
+      css/fonts.css: {}

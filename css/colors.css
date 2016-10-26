@@ -3,24 +3,66 @@ body {
 	color: #101d06;
 }
 
-#block-bookfetch-account-menu {
-	background-color: #a0d8a0;
+#page-wrapper a {
+	color: #283267;
 }
 
-.block-bookfetch-branding {
-	background-color: #212121;
+#page-wrapper a:visited {
+	color: #3e1c49;
 }
+
+#page-wrapper input[type=submit] {
+	background: linear-gradient(to bottom, #283267 50%, #181d3d 50%);
+	color: white;
+}
+
+
+
+/* Account menu --------------------- */
+
+#block-bookfetch-account-menu {
+	background-color: #333;
+}
+
+#block-bookfetch-account-menu a,
+#block-bookfetch-account-menu a:visited {
+	color: inherit;
+}
+
+
+
+/* Branding ------------------------- */
 
 #block-bookfetch-branding {
-
+	background-color: #212121;
+	color: #AAA;
+	font-style: italic;
 }
 
-#block-bookfetch-branding a {
-	width: 200px;
-	display: block;
-	margin: 0 auto;
+
+#block-bookfetch-branding a,
+#block-bookfetch-branding a:visited {
+	color: white;
+	font-style: normal;
 }
 
-#page-wrapper nav a {
-	background-color: #c3c3c3;
+
+
+
+/* Main nav bar below logo ---------------- */
+
+#block-bookfetch-main-menu {
+	background-color: #d2f5ef;
+	border-bottom: 1px solid #888;
+}
+
+#block-bookfetch-main-menu a,
+#block-bookfetch-main-menu a:visited {
+	color: #333;
+	background-color: #7cd5c6;
+	transition: background-color .2s;
+}
+
+#block-bookfetch-main-menu a:hover {
+	background-color: #58978d;
 }
